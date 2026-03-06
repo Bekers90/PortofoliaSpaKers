@@ -5,7 +5,7 @@ export const Footer = () => {
  console.log(social);
 
   return (
-    <div className='bg-gradient-to-b from-black to-amber-950 py-5 lg:py-10 mt-5 lg:mt-10'>
+    <div className='bg-linear-to-b from-black to-amber-950 py-5 lg:py-10 mt-5 lg:mt-10'>
         <Container className='flex flex-col gap-3 lg:flex-row items-center justify-between body-3 text-n-3'>
            <div className='flex items-centergap-4 '>
              {social.map((link) => (

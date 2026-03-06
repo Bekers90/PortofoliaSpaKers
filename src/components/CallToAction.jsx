@@ -6,7 +6,7 @@ export const CallToAction = ({ minify = false}) => {
   return (
     <Container>
         <div className=' max-w-4xl mx-auto  py-5 lg:py-10'>
-            <div className={`rounded-xl lg:rounded-3xl bg-gradient-to-b from-red-700 to-amber-950 p-6 lg:p-16 gap-8
+            <div className={`rounded-xl lg:rounded-3xl bg-linear-to-b from-red-700 to-amber-950 p-6 lg:p-16 gap-8
                 ${!minify ? "flex flex-col items-center" 
                 : "flex  items-center justify-between lg:flex lg:flex-row lg:items-center" }`} >
 

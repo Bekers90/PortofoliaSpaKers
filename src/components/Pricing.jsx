@@ -15,8 +15,8 @@ export const Pricing = () => {
                     <div 
                     className={`
                         ${plan.featured 
-                            ? "bg-gradient-to-b from-orange-700 to-amber-950" 
-                            : "bg-gradient-to-b from-orange-600 to-amber-950"
+                            ? "bg-linear-to-b from-orange-700 to-amber-950" 
+                            : "bg-linear-to-b from-orange-600 to-amber-950"
                         }
                         rounded-xl lg:rounded-2xl p-6 lg:p-12 text-center lg:text-start
                         `}
